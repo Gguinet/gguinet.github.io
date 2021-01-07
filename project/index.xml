@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Gauthier Guinet</title>
+    <link>https://gguinet.github.io/project/</link>
+      <atom:link href="https://gguinet.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gguinet.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://gguinet.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Semi-Supervised Learning for Bilingual Lexicon Induction</title>
+      <link>https://gguinet.github.io/project/semi-supervised/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://gguinet.github.io/project/semi-supervised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synaptic epigenesis of the Global Neuronal Workspace</title>
+      <link>https://gguinet.github.io/project/autism/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://gguinet.github.io/project/autism/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;How are Autism Spectrum Disorders closely linked to the phenomenen of neurons birth and death?&lt;/strong&gt; During a year-long project, I collaborated with &lt;a href=&#34;http://www.extrospection.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Guillaume Dumas&lt;/a&gt; and &lt;a href=&#34;https://www.college-de-france.fr/site/jean-pierre-changeux/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Jean-Pierre Changeux&lt;/a&gt;, from the Pasteur Institute in Paris. The ultimate goal was to seek new conceptual and methodological approaches towards a better understanding of neuronal coordination dynamics. Combining computational neuroscience, system biology, and Reinforcement Learning, we were able to propose a more biological realist model of learning  and then to implement it through a neural network. More broadly, this work also aims to examine the relationship between biological learning mechanisms and those used in artificial intelligence algorithms, an exciting and challenging topic. Below is the poster we presented at the synposium &lt;a href=&#34;https://research.pasteur.fr/fr/event/neural-networks-from-brains-to-machines-and-vice-versa/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Neural networks – From brains to machines and vice versa&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

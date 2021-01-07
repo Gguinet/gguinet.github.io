@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://gguinet.github.io/sitemap.xml
