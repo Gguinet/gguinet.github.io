@@ -37,7 +37,7 @@
   <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://gguinet.github.io/publication/cost_awarebo/">
+  <link rel="alternate" hreflang="en-us" href="https://gguinet.github.io/publication/censoredbandits/">
 
   
 
@@ -303,7 +303,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://gguinet.github.io/publication/cost_awarebo/">
+  <link rel="canonical" href="https://gguinet.github.io/publication/censoredbandits/">
 
   
   
@@ -319,15 +319,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Gauthier Guinet">
-  <meta property="og:url" content="https://gguinet.github.io/publication/cost_awarebo/">
-  <meta property="og:title" content="Pareto-efficient Acquisition Functions for Cost-Aware Bayesian Optimization | Gauthier Guinet">
+  <meta property="og:url" content="https://gguinet.github.io/publication/censoredbandits/">
+  <meta property="og:title" content="Sequential Decision-Marking under Censored Environments | Gauthier Guinet">
   <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum."><meta property="og:image" content="https://gguinet.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://gguinet.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-11-23T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2021-11-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-11-23T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-11-01T00:00:00&#43;00:00">
   
 
   
@@ -349,12 +349,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://gguinet.github.io/publication/cost_awarebo/"
+    "@id": "https://gguinet.github.io/publication/censoredbandits/"
   },
-  "headline": "Pareto-efficient Acquisition Functions for Cost-Aware Bayesian Optimization",
+  "headline": "Sequential Decision-Marking under Censored Environments",
   
-  "datePublished": "2020-11-23T00:00:00Z",
-  "dateModified": "2020-11-23T00:00:00Z",
+  "datePublished": "2021-11-01T00:00:00Z",
+  "dateModified": "2021-11-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -387,7 +387,7 @@
 
 
 
-  <title>Pareto-efficient Acquisition Functions for Cost-Aware Bayesian Optimization | Gauthier Guinet</title>
+  <title>Sequential Decision-Marking under Censored Environments | Gauthier Guinet</title>
 
 </head>
 
@@ -735,7 +735,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Pareto-efficient Acquisition Functions for Cost-Aware Bayesian Optimization</h1>
+  <h1>Sequential Decision-Marking under Censored Environments</h1>
 
   
 
@@ -754,8 +754,8 @@
 
   <span class="author-highlighted">
       Gauthier Guinet</span>, <span >
-      Valerio Perrone</span>, <span >
-      Cédric Archambeau</span>
+      Saurabh Amin</span>, <span >
+      Patrick Jaillet</span>
   </div>
   
   
@@ -766,7 +766,7 @@
     
       
     
-    November 2020
+    November 2021
   </span>
   
 
@@ -794,72 +794,10 @@
 
 
 
-  
 
 
 
 
-  
-
-
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header" href="/publication/cost_awarebo/cost_awareBO.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/cost_awarebo/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="/publication/cost_awarebo/poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="/publication/cost_awarebo/slides.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-
-</div>
 
 
   
@@ -870,9 +808,6 @@
   <div class="article-container">
 
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract">Bayesian optimization (BO) is a popular method to optimize expensive black- box functions. It efficiently tunes machine learning algorithms under the implicit assumption that hyperparameter evaluations cost approximately the same. In reality, the cost of evaluating different hyperparameters, be it in terms of time, dollars or energy, can span several orders of magnitude of difference. While a number of heuristics have been proposed to make BO cost-aware, none of these have been proven to work robustly. In this work, we reformulate cost- aware BO in terms of Pareto efficiency and introduce the cost Pareto Front, a mathematical object allowing us to highlight the shortcomings of commonly used acquisition functions. Based on this, we propose a novel Pareto-efficient adaptation of the expected improvement. On 144 real-world black-box function optimization problems we show that our Pareto-efficient acquisition functions significantly outperform previous solutions, bringing up to 50% speed-ups while providing finer control over the cost-accuracy trade-off. We also revisit the common choice of Gaussian process cost models, showing that simple, low-variance cost models predict training times effectively.</p>
-    
 
     
     
@@ -882,8 +817,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#2">
+              Journal article
             </a>
           </div>
         </div>
@@ -899,7 +834,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>NEURIPS 2020 Meta-Learning Workshop</em></div>
+          <div class="col-12 col-md-9">Work in Progress</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -931,7 +866,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://gguinet.github.io/publication/cost_awarebo/&amp;text=Pareto-efficient%20Acquisition%20Functions%20for%20Cost-Aware%20Bayesian%20Optimization" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://gguinet.github.io/publication/censoredbandits/&amp;text=Sequential%20Decision-Marking%20under%20Censored%20Environments" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -944,7 +879,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://gguinet.github.io/publication/cost_awarebo/&amp;t=Pareto-efficient%20Acquisition%20Functions%20for%20Cost-Aware%20Bayesian%20Optimization" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://gguinet.github.io/publication/censoredbandits/&amp;t=Sequential%20Decision-Marking%20under%20Censored%20Environments" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -957,7 +892,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Pareto-efficient%20Acquisition%20Functions%20for%20Cost-Aware%20Bayesian%20Optimization&amp;body=https://gguinet.github.io/publication/cost_awarebo/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Sequential%20Decision-Marking%20under%20Censored%20Environments&amp;body=https://gguinet.github.io/publication/censoredbandits/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -970,7 +905,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://gguinet.github.io/publication/cost_awarebo/&amp;title=Pareto-efficient%20Acquisition%20Functions%20for%20Cost-Aware%20Bayesian%20Optimization" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://gguinet.github.io/publication/censoredbandits/&amp;title=Sequential%20Decision-Marking%20under%20Censored%20Environments" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -983,7 +918,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Pareto-efficient%20Acquisition%20Functions%20for%20Cost-Aware%20Bayesian%20Optimization%20https://gguinet.github.io/publication/cost_awarebo/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Sequential%20Decision-Marking%20under%20Censored%20Environments%20https://gguinet.github.io/publication/censoredbandits/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -996,7 +931,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://gguinet.github.io/publication/cost_awarebo/&amp;title=Pareto-efficient%20Acquisition%20Functions%20for%20Cost-Aware%20Bayesian%20Optimization" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://gguinet.github.io/publication/censoredbandits/&amp;title=Sequential%20Decision-Marking%20under%20Censored%20Environments" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1144,7 +1079,7 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/censoredbandits/">Sequential Decision-Marking under Censored Environments</a></li>
+      <li><a href="/publication/cost_awarebo/">Pareto-efficient Acquisition Functions for Cost-Aware Bayesian Optimization</a></li>
       
     </ul>
   </div>
