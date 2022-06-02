@@ -17,7 +17,10 @@
       <link>https://gguinet.github.io/project/polabelief2020/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://gguinet.github.io/project/polabelief2020/</guid>
-      <description></description>
+      <description>&lt;p&gt;In &lt;a href=&#34;https://www.microsoft.com/en-us/research/publication/polarization-through-the-lens-of-learning-theory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Haghtalab et al., 2019&lt;/a&gt;, polarization of belief is studied through the lens of statistical learning theory. Aside from the innovative ideas, the main theoretical contribution is the introduction of diameter inequalities on an hypothesis class, leveraging only the structure induced by the pseudo metric related to the 0-1 loss. Such diameter is mapped to the maximal disagreement between agents and thus the potential polarization. More precisely, they establish some PAC style bounds on the maximal distance between two penalized ERM hypothesis and study the impact of small modification of the distribution on this distance.
+With this in mind, this work leverages their framework to further study diameter inequalities under the existence of penalization, without making any assumptions on the structure of the hypothesis space nor on the form of such penalization. Particular attention is given to asymptotic diameter and convergence of empirical and expected approximation sets, called Rashomon Sets. Roughly speaking, we wonder to what extent polarization is robust w.r.t. the penalization? In others words, we analyse the impact of modifications of the penalization associated with hypothesis (i.e.education) on polarization.
+The second part of the work lays the groundwork of an algorithm whose goal is to introduce bias in the initial distribution in order to reduce maximal diameter, studying an open question of &lt;a href=&#34;https://www.microsoft.com/en-us/research/publication/polarization-through-the-lens-of-learning-theory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Haghtalab et al., 2019&lt;/a&gt;. In particular, some links are established with a line of work in Active Learning community tackling related questions.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -25,7 +28,18 @@
       <link>https://gguinet.github.io/project/semi-supervised/</link>
       <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://gguinet.github.io/project/semi-supervised/</guid>
-      <description></description>
+      <description>&lt;p&gt;We consider the problem of aligning two sets of continuous word representations, corresponding to languages, to a common space in order to infer a bilingual lexicon. It was recently shown that it is possible to infer such lexicon, without using any parallel data, by aligning word embeddings trained on monolingual data. Such line of work is called unsupervised bilingual induction. By wondering whether it was possible to gain experience in the progressive learning of several languages, we asked ourselves to what extent we could integrate the knowledge of a given set of languages when learning a new one, without having parallel data for the latter. In other words, while keeping the core problem of unsupervised learning in the latest step, we allowed the access to other corpora of idioms, hence the name semi-supervised. This led us to propose a novel formulation, considering the lexicon induction as a ranking problem for which we used recent tools of this machine learning field. Our experiments on standard benchmarks, inferring dictionary from English to more than 20 languages, show that our approach consistently outperforms existing state of the art benchmark. In addition, we deduce from this new scenario several relevant conclusions allowing a better understanding of the alignment phenomenon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estimating the effect of Tranexamic Acid on Head Traumatized patients with Causal Matching</title>
+      <link>https://gguinet.github.io/project/causalinf/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://gguinet.github.io/project/causalinf/</guid>
+      <description>&lt;p&gt;The aim of this paper is to study the causal effect of the use of tranexamic acid in head trauma patients, using a dataset provided by the AP-HP (Paris Hospital), gathering medical information on major trauma victims. In observational studies, one of the major difficulties is to cope with the lack of an adequate control group. This is because, unlike in randomized experiments, there is a bias in the administration of treatment.&lt;/p&gt;
+&lt;p&gt;In (1), we present the associated statistical framework. In (2), we describe three of the main techniques used for matching: coarse exact matching, cardinality matching and propensity matching. Since there is little statistical evidence for the effectiveness of these techniques, we designed and implemented experiments to provide empirical results. We generated several synthetic datasets with various underlying complexities and compared our methods on these datasets. In (3), we outline the methodology and results of this experiment. Thereafter, we applied our methods on the trauma database after preprocessing it. This allowed us to obtain an estimate of the treatment effect, which we present in (4). Finally, because the use of the trauma database involves imputation of missing data, we study the robustness to missing data of our three matching methods in (5).&lt;/p&gt;
+</description>
     </item>
     
     <item>
